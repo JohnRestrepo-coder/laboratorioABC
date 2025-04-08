@@ -1,0 +1,41 @@
+/* style.css */
+#alphabet-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .alphabet-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .alphabet-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-content {
+    padding: 1rem;
+  }
+  
+  .letter {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .word {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .alphabet-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
